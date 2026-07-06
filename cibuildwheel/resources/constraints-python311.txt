@@ -26,7 +26,7 @@ delvewheel==1.13.0
     # via -r cibuildwheel/resources/constraints.in
 distlib==0.4.3
     # via virtualenv
-filelock==3.29.4
+filelock==3.29.5
     # via
     #   python-discovery
     #   virtualenv
@@ -54,8 +54,7 @@ pefile==2024.8.26
     # via
     #   abi3audit
     #   delvewheel
-pip==26.1.2; implementation_name != "graalpy" or platform_system != "Windows"
-pip==26.0.1; implementation_name == "graalpy" and platform_system == "Windows"
+pip==26.1.2
     # via -r cibuildwheel/resources/constraints.in
 pkgconf==2.5.1.post2
     # via -r cibuildwheel/resources/constraints.in
@@ -72,17 +71,17 @@ pygments==2.20.0
     # via rich
 pyproject-hooks==1.2.0
     # via build
-python-discovery==1.4.2
+python-discovery==1.4.3
     # via virtualenv
 requests==2.34.2
     # via
     #   abi3audit
     #   requests-cache
-requests-cache==1.3.2
+requests-cache==1.3.3
     # via abi3audit
 rich==15.0.0
     # via abi3audit
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via
     #   cattrs
     #   delocate

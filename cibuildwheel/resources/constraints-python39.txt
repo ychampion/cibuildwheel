@@ -77,7 +77,7 @@ pygments==2.20.0
     # via rich
 pyproject-hooks==1.2.0
     # via build
-python-discovery==1.4.2
+python-discovery==1.4.3
     # via virtualenv
 requests==2.32.5
     # via
@@ -89,7 +89,7 @@ rich==14.2.0
     # via abi3audit
 tomli==2.4.1
     # via build
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via
     #   cattrs
     #   delocate
